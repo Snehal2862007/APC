@@ -1,0 +1,11 @@
+a=10
+b=2.4
+c="snehal"
+d=True
+e=[1,2,3,4]
+f=(1,2,3,4)
+g={"name":"snehal","age":22}
+h=None
+i=2+3j
+k=u 
+k=u 
