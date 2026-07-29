@@ -1,4 +1,4 @@
-n = int(input("Enter the n: "))
+n = int(input("enter the n: "))
 a = 0
 b = 1
 print("Fibonacci Series:")

@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = int(input("enter a number: "))
 root = int(num ** 0.5)
 factor = 0
 for i in range(1, root + 1):
