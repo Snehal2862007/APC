@@ -1,0 +1,10 @@
+name = input()
+roll_no = input()
+branch = input()
+semester = input()
+with open("student.txt", "w") as file:
+    file.write(name + "\n")
+    file.write(roll_no + "\n")
+    file.write(branch + "\n")
+    file.write(semester + "\n")
+print("success")
