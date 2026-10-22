@@ -1,0 +1,13 @@
+from tkinter import *
+root = Tk()
+root.title("Radio Button Widget")
+root.geometry("300x200")
+
+Label(root, text="Select Gender:").pack()
+gender = StringVar(value="Male")
+
+Radiobutton(root, text="Male", variable=gender,
+            value="Male").pack()
+Radiobutton(root, text="Female", variable=gender,
+            value="Female").pack()
+root.mainloop()

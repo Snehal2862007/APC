@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+root.title("listbox Widgets")
+root.geometry("400x550")
+Label(root, text="Select Course:").pack()
+course = Listbox(root, height=3)
+course.insert(1, "Computer Engineering")
+course.insert(2, "Mechanical Engineering")
+course.insert(3, "Civil Engineering")
+course.pack(pady=5)
+root.mainloop()
