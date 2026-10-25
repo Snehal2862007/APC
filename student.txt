@@ -1,7 +1,4 @@
-snehal
-10
-5
-riya
-45
-cse
-8
+name: amit
+roll: 101
+branch: cse
+semester: 5
